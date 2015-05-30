@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jayasuriyat.delta_task2_contacts" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/contacts"
+        android:label="CONTACTS"
+        android:theme="@style/AppTheme"
+        android:layout_centerHorizontal="true">
+        <activity
+            android:name=".MainActivity"
+            android:label="CONTACTS"
+            android:theme="@android:style/Theme.Light"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
+
